@@ -1,5 +1,7 @@
 extends Area2D
 
+signal enemy_died
+
 export (int) var speed = 150
 
 var hp = 1
@@ -11,6 +13,7 @@ func take_damage(damage):
 	hp -= damage
 	if hp <= 0:
 		queue_free()
+		emit_signal("enemy_died")
 
 func _on_Enemy_area_entered(area):
 	if area is Player:

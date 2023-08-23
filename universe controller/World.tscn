@@ -19,4 +19,11 @@ position = Vector2( 244, 822 )
 
 [node name="EnemySpawner" parent="." instance=ExtResource( 3 )]
 
+[node name="Score" type="Label" parent="."]
+margin_left = 20.0
+margin_top = 25.0
+margin_right = 84.0
+margin_bottom = 39.0
+text = "Score: 0"
+
 [connection signal="spawn_laser" from="Player" to="." method="_on_Player_spawn_laser"]
