@@ -30,7 +30,11 @@ func _physics_process(delta):
 func take_damage(damage):
 	hp -= damage
 	if hp <= 0:
-		queue_free()
+		game_over()
+
+func game_over():
+	var game_over_scene = "res://gameover.tscn"
+	get_tree().change_scene(game_over_scene)
 
 func _on_Player_area_entered(area):
 	if area.is_in_group("enemies"):

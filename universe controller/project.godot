@@ -21,7 +21,11 @@ _global_script_class_icons={
 [application]
 
 config/name="Universumi Kontrolör"
-run/main_scene="res://World.tscn"
+run/main_scene="res://menu.tscn"
+
+[autoload]
+
+Menu="res://menu.tscn"
 
 [display]
 
