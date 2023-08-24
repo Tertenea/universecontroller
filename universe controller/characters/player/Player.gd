@@ -5,7 +5,7 @@ signal spawn_laser(location)
 
 onready var muzzle = $Muzzle
 
-var speed = 300
+var speed = 500
 
 var input_vector = Vector2.ZERO
 
@@ -25,6 +25,7 @@ func _physics_process(delta):
 	global_position = new_pos
 	
 	if Input.is_action_just_pressed("shoot"):
+		$Pew.play()
 		shoot_laser()
 	
 func take_damage(damage):

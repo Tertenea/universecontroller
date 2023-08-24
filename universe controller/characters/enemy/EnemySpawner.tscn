@@ -22,7 +22,20 @@ position = Vector2( 370, 0 )
 [node name="SpawnPosition_05" type="Position2D" parent="SpawnPositions"]
 position = Vector2( 470, 0 )
 
+[node name="SpawnPosition_06" type="Position2D" parent="SpawnPositions"]
+position = Vector2( 120, 0 )
+
+[node name="SpawnPosition_07" type="Position2D" parent="SpawnPositions"]
+position = Vector2( 220, 0 )
+
+[node name="SpawnPosition_08" type="Position2D" parent="SpawnPositions"]
+position = Vector2( 320, 0 )
+
+[node name="SpawnPosition_09" type="Position2D" parent="SpawnPositions"]
+position = Vector2( 420, 0 )
+
 [node name="SpawnTimer" type="Timer" parent="."]
+wait_time = 0.5
 autostart = true
 
 [connection signal="timeout" from="SpawnTimer" to="." method="_on_SpawnTimer_timeout"]

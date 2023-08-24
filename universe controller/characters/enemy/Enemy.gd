@@ -2,7 +2,8 @@ extends Area2D
 
 signal enemy_died
 
-export (int) var speed = 150
+export (int) var speed = 160
+
 
 var hp = 1
 

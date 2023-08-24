@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/explode.mp3-1ee5e5c338c96c3812de73900a917ccc.mp3str"
+
+[deps]
+
+source_file="res://ASS(nice)ets/explode.mp3"
+dest_files=[ "res://.import/explode.mp3-1ee5e5c338c96c3812de73900a917ccc.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

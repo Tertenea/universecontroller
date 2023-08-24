@@ -2,6 +2,9 @@ extends Node2D
 
 var spawn_positions = null
 
+var timer_speed = 1.0
+var base_timer_interval = 2.0
+
 var Enemy = preload("res://characters/enemy/Enemy.tscn")
 
 func _ready():

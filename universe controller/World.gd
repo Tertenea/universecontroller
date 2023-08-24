@@ -1,5 +1,7 @@
 extends Node2D
 
+var sound_effect : AudioStreamPlayer
+
 var Laser = preload("res://projectiles/PlayerLaser.tscn")
 
 var score = 0

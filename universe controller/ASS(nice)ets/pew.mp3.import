@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/pew.mp3-ebd4f61d42b0f3b5955dae086fc831af.mp3str"
+
+[deps]
+
+source_file="res://ASS(nice)ets/pew.mp3"
+dest_files=[ "res://.import/pew.mp3-ebd4f61d42b0f3b5955dae086fc831af.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0
